@@ -1,5 +1,8 @@
 <?php
-    define('SMS_KEY', ''); //put your sms key here
+    if(!defined('SMS_KEY'))
+    {
+        define('SMS_KEY', ''); //put your sms key here
+    }
     
     /*
      * Sms api for https://alphasms.com.ua/storage/files/AlphaSMS_XML_v1.3.pdf
